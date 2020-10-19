@@ -34,7 +34,7 @@ windows 安装地址:https://gitforwindows.org/
       `$ cat ~/.ssh/id_rsa.pub`
       
       设置成功后github账户绑定邮箱会收到一封邮件，此时可以用私有秘钥与github进行通信了。输入以下代码
-      `$ ssh -T git@github.com`
+      `$ ssh -T git@github.com`		#每次使用git都需要使用该命令连接github
       `Enter passphrase for key '/c/Users/疯狼/.ssh/id_rsa':
       `Enter passphrase for key '/c/Users/疯狼/.ssh/id_rsa':
       `Hi Lang2412! You've successfully authenticated, but GitHub does not provide shell access.
