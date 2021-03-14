@@ -83,10 +83,15 @@ windows 安装地址:https://gitforwindows.org/
     git pull                    本地与服务器端同步
 
       
-      
+## 常用流程
+
+    1.建库
+    2.git clone  SSH或者https链接       输入刚才复制的连接，把github上面的仓库克隆到本地。
+    3.使用cd命令进入克隆下载的库文件夹,将需要上传的项目文件夹复制到该库文件夹下
+    4.git add .                         添加当前文件夹下所有文件
+    5.git commit  -m  "提交信息"        提交
+    6. git push -u origin master        将文件推送到服务器上
     
-    
-  
   
   
  
